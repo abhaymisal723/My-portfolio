@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <section class="hero" id="hero">
+        <nav>
+            <img src="logo.png" alt="Logo" class="logo">
+            <!-- <a href="javascript:menu()"><img src="data/menu.svg" alt="menu_btn" class="menu_btn"></a> -->
+            <ul class="nav_list nav_close" id="nav">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero_body">
+            <div class="hero_left">
+                <div class="hero_left_text">
+                    <h2>Hi There,</h2>
+                    <h1>I am Abhay</h1>
+                    <h3>Programmer, Web developer and Engineer</h3>
+                </div>
+                <div class="hero_left_nav">
+                    <button class="primary" onclick="window.location.href='#contact'">Contact Us</button>
+                    <a href="data/Abhay_Resume.pdf" target="_blank">Download Resume</a>
+                </div>
+            </div>
+            <div class="hero_right">
+                <img src="my_photo.jpg" alt="Abhay's photo">
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about_left">
+            <h1>About Me</h1>
+            <ol class="ol">
+                <li>Pre final year student pursuing B.Tech in Electronics and Communication Engineering at National Institute of Technology Calicut(NITC).</li>
+                <li>In my ultimate year of study at NIT Calicut, my CGPA is 8.36 till last semester.</li>
+                <li>Proficient in C++, familiar with Python, skilled in DS & Algo.</li>
+            </ol>
+            <h2>Achievements</h2>
+            <ol>
+                <li>Solved 600+ Ds and Algo questions on platforms like Leetcode, GFG, binarysearch, codechef, codeforce.</li>
+            </ol>
+        </div>
+        <div class="about_right">
+            <h2>Skills</h2>
+            <img src="skills.png" alt="skills">
+        </div>
+    </section>
+    <section class="projects" id="projects">
+        <h2>Recent Projects</h2>
+        <div class="project-body">
+          <div class="project-list" id="project-list">
+            <img class="project-img" src="data/project1.jpg" />
+            <img class="project-img" src="data/project2.jpg" />
+            <img class="project-img" src="data/project3.jpg" />
+            <img class="project-img" src="data/project4.jpg" />
+          </div>
+          <div class="list-control">
+            <a id="scrollright">
+              <img class="scroll-buttons" src="data/scrollright.png" />
+            </a>
+            <a id="scrollleft">
+              <img class="scroll-buttons" src="data/scrollleft.png" />
+            </a>
+          </div>
+        </div>
+      </section>
+      
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-body">
+          <div class="contact-left">
+            <form action="https://formspree.io/f/xknyzjrq" method="POST" class="contact-form">
+              <input type="text" name="name" id="name" placeholder="Full Name" />
+              <input type="email" name="email" id="email" placeholder="Email" />
+              <textarea
+                placeholder="Message"
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+              >
+              </textarea>
+              <button type="submit">SUBMIT</button>
+            </form>
+          </div>
+          <div class="contact-right">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120068.58920418337!2d75.27327605820312!3d19.876165300000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdb9815a369bc63%3A0x712d538b29a2a73e!2sAurangabad%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1647011965772!5m2!1sen!2sin" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+          </div>
+        </div>
+      </section>
+      <div class="footer">
+        <p>&copy; 2020 Abhay. All rights reserved. | Designed by Abhay</p>
+        <p>2021-2022</p>
+      </div>
+      <div class="social">
+        <a href="https://www.facebook.com/abhay.misal.792/about"><img src="data/fb.svg" class="sicon" /></a>
+        <a href="https://github.com/abhaymisal723"><img src="data/git.svg" class="sicon" /></a>
+        <a href="https://www.linkedin.com/in/abhay-misal-b75b00207/"><img src="data/lin.svg" class="sicon" /></a>
+        <a href="tel:+917666198191"><img src="data/ph.svg" class="sicon" /></a>
+        <a href="mailto:abhaymisal364@gmail.com"><img src="data/mail.svg" class="sicon" /></a>
+      </div>
+      <script src="script.js"></script>
+</body>
+</html>
