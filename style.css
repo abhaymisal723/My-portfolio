@@ -90,28 +90,49 @@ body{
 }
 .about_left h1{
     font-size: 50px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 .about_left ol{
     font-size: 20px;
 }
-.about_left h2{
-    font-size: 30px;
+.achieve{
+    margin-left: 70px;
+    margin-top: 1px;
+}
+.achieve h2{
+    font-size: 50px;
     margin-bottom: 10px;
 }
+.achieve ol{
+    font-size: 20px;
+}
 .about_right h2{
-    font-size: 30px;
+    font-size: 50px;
     margin-bottom: 10px;
+    margin-top: 40px;
 }
 .about_right img{
     width: 480px;
     height: auto;
     margin-right: 10px;
+    /* margin-top: 10px; */
 }
 /* .projects {
     padding: 1rem 5rem;
 } */
-  
+#projol {
+    font-size: 20px;
+    margin-left: 70px;
+}
+#projol1 {
+    margin-left: 30px;
+}
+#projol2 {
+    margin-left: 50px;
+}
+#projol3 {
+    margin-left: 108px;
+}
 .project-body {
     width: 85vw;
     display: flex;
